@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Creating /tmp/d8k.io"
+touch /tmp/d8k.io
+sleep 10
