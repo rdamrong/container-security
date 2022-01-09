@@ -1,0 +1,14 @@
+#include <tunables/global>
+
+/usr/local/bin/appone {
+  #include <abstractions/base>
+  #include <abstractions/bash>
+
+  /dev/tty rw,
+  /usr/bin/bash ix,
+  /usr/bin/sleep mrix,
+  /usr/bin/touch mrix,
+  /usr/local/bin/appone r,
+  owner /tmp/d8k.io w,
+
+}
